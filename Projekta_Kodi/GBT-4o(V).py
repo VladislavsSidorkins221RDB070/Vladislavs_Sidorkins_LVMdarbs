@@ -27,7 +27,7 @@ def ask_chatgpt(question, options):
         else:
             return ""
     except Exception as e:
-        print(f"API ошибка: {e}")
+        print(f"API kļūda: {e}")
         return ""
 
 def process_csv(input_file, output_file):
